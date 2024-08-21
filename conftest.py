@@ -19,7 +19,6 @@ from tests import test_settings
 
 backends = {"twilio.TwilioBackend", "nexmo.NexmoBackend"}
 sandbox_backends = {"twilio.TwilioSandboxBackend", "nexmo.NexmoSandboxBackend"}
-all_backends = list(backends) + list(sandbox_backends)
 
 
 class PartialMethodCaller:
